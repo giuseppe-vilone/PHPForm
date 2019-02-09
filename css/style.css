@@ -1,0 +1,58 @@
+html, body {
+	font-family: Georgia, Times, Times New Roman, serif;
+	font-size: 16px;
+}
+.w400 {
+	margin: 0px auto;
+	width: 400px;
+}
+.logo {
+	text-align: center;
+	padding: 15px 0px;
+	border-bottom: 1px solid #5cbbda;
+	margin-bottom: 20px;
+}
+.text-center {
+	text-align: center;
+	margin-bottom: 20px;
+}
+input {
+	height: 35px;
+	width: 400px;
+	border: 1px solid #ddd;
+	margin: 5px 0px 20px;
+}
+textarea {
+	width: 400px;
+	border: 1px solid #ddd;
+	margin: 5px 0px 20px;
+	resize: none;
+}
+ input[type="submit"] {
+ cursor: pointer;
+ padding: 10px;
+ font-size: 19px;
+ height: auto;
+ font-family: Georgia, Times, Times New Roman, serif;
+}
+ input[type="submit"]:hover {
+ background-color: #999;
+ color: #fff;
+}
+
+/* jQuery validation plug-in */
+input.error { border: 1px dotted red; }
+textarea.error { border: 1px dotted red; }
+form.form label.error, label.error {
+	/* remove the next line when you have trouble in IE6 with labels in list */
+	color: red;
+	font-style: italic
+}
+#form {
+	width: 800px;
+}
+#form label.error {
+	margin-left: 10px;
+	width: auto;
+	display: inline;
+}
